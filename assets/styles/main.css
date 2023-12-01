@@ -1,0 +1,9 @@
+.div_main{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 50%;
+}
+.div_login{
+    box-shadow: -4px 4px 8px 1px rgba(135,130,135,0.75);
+}
