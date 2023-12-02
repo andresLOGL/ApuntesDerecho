@@ -1,9 +1,20 @@
+.index_body{
+    background-image: url(../img/abogs.jpg);
+    background-size: cover;
+    backdrop-filter: blur(5.5px);
+}
 .div_main{
-    display: flex;
+    max-width: 1110px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     text-align: center;
     align-items: center;
-    margin-top: 50%;
+    margin-top: 7.8%;
 }
 .div_login{
     box-shadow: -4px 4px 8px 1px rgba(135,130,135,0.75);
+}
+p{
+    background-color: #fff;
+    border-radius: 8px;
 }
