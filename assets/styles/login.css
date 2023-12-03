@@ -1,8 +1,25 @@
 .login_body{
     background-image: url(../img/abogs.jpg);
     background-size: cover;
+    backdrop-filter: blur(7px);
+}
+.section_form{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .form_body{
-    text-align: center;
-    align-items: center;
+ padding: 30px;
+border: 2px solid #fff;
+backdrop-filter: blur (20px);
+border-radius: 10px;
+font-size: larger;
+text-align: center;
+}
+.regresar_inicio{
+    background-color: rgb(49, 118, 247, 0.801);
+    border-radius: 5px;
+    font-size: 20px;
 }
