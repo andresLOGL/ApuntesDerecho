@@ -1,7 +1,10 @@
 .index_body{
     background-image: url(../img/abogs.jpg);
     background-size: cover;
-    backdrop-filter: blur(5.5px);
+    backdrop-filter: blur(2px);
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+    background-color: #0008;
 }
 .div_main{
     max-width: 1110px;
@@ -14,7 +17,7 @@
     box-shadow: -4px 4px 8px 1px rgba(135,130,135,0.75);
 }
 p{
-    background-color: #fff;
+    background-color:rgb(49, 118, 247, 0.801);
     border-radius: 4px;
 }
 h3 a{

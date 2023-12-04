@@ -8,12 +8,13 @@
 </head>
 <body class="login_body">
     <section class="section_form">
-        <form class="form_body">
+        <form id="form-login" class="form_body">
+            <H1 class="h1_login">INICIAR SESIÓN</H1>
             <label class="correo" for="correo">EMAIL</label>
-            <input id="correo" type="email" placeholder="Ingresa el correo" required><br>
+            <input name="email" id="correo" type="email" placeholder="Ingresa el correo" required><br>
             <label class="contasena" for="contrasena">CONTRASEÑA</label>
-            <input id="contrasena" type="password" placeholder="Ingresa la contraseña" required><br>
-            <button id="boton" type="submit">Enviar</button>
+            <input name="password" id="contrasena" type="password" placeholder="Ingresa la contraseña" required><br>
+            <button class="boton" id="boton" type="submit">INICIAR SESIÓN</button>
         </form>
     </section>
     <script src="../js/login.js"></script>
