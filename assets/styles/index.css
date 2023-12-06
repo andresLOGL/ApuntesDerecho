@@ -1,6 +1,7 @@
 @import url(./header.css);
 @import url(./login.css);
 @import url(./main.css);
+@import url(./apuntes.css);
 
 *{
     margin: 0 auto;

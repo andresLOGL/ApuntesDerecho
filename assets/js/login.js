@@ -13,6 +13,5 @@ if (form) {
             localStorage.setItem('login','true') 
             window.location = '../views/Apuntes.html'  
         }
-       
     })
 }
